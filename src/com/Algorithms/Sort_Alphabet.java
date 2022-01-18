@@ -7,6 +7,9 @@ public class Sort_Alphabet {
         //these are the elements for the intArray array
         String[] intArray = {"a", "c", "b", "e", "d", "g", "f", "i", "h", "k", "j", "m", "l", "o", "n", "q", "p", "s", "r", "u", "t", "w", "v", "y", "z"};
 
-
+        for(int i = 0; i < intArray.length; i++)
+        {
+            System.out.println(intArray[i]);
+        }
     }
 }
